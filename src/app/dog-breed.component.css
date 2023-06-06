@@ -1,0 +1,68 @@
+/* Component styles of dog-breed.component */
+header {
+  background-color:#0000ff;
+  }
+h1{
+  color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  text-align: center;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 15px;
+  /* display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px 50px; */
+}
+
+.list li {
+  flex-basis: 30%; /* Adjust as needed based on your layout requirements */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.list li .item {
+  display: flex;
+  align-items: center;
+}
+
+.list li .item img {
+  width: 70px; /* Adjust the width as per your needs */
+  margin-right: 10px; /* Add any desired spacing between the image and the span */
+  border-radius:5px
+}
+
+.list li .item span {
+  flex: 1;
+  margin-right: 10px; /* Add any desired spacing between the span and the anchor */
+}
+
+.list li .item .view-details {
+  text-decoration: none;
+  color: #000;
+  margin-left: auto; /* Push the anchor to the right side of the item div */
+}
+
+.list li .item .details {
+  margin-top:5px
+}
+
+.details{
+text-align: left;
+}
+.details h2{
+  margin: 3px 0;
+}
+.details p{
+  margin: 5px 0;
+}
+
+.list li:hover {
+  background-color: azure;
+}
